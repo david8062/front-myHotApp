@@ -1,0 +1,29 @@
+name: front_end
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+
+dev_dependencies:
+  test: any
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/logo.png
+    - assets/imagenes/imagenPrueba1.png
+  fonts:
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/Caveat/Caveat.ttf
+
