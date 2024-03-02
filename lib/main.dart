@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'screens/inicio.dart';
+import 'screens/inicio.dart';
 import 'screens/maps/find_to_motel.dart';
  import 'dart:io';
   class MyHttpOverrides extends HttpOverrides{
@@ -25,7 +25,7 @@ class Inicio extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "My hot app",
-      home: FindToMotel(),
+      home: HomePage(),
      
       
     );
