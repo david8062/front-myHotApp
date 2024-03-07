@@ -1,4 +1,3 @@
-// ignore_for_file: camel_case_types, unused_local_variable
 import 'package:flutter/material.dart';
 import 'package:front_end/screens/positions/hetero_positions.dart';
 import 'package:front_end/widgets/boton.dart';

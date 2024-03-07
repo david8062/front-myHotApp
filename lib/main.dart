@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'screens/inicio.dart';
-import 'screens/maps/find_to_motel.dart';
- import 'dart:io';
+import 'package:front_end/screens/inicio.dart';
+// import 'screens/inicio.dart';
+import 'screens/positions/galery.dart';
+
+
+import 'dart:io';
   class MyHttpOverrides extends HttpOverrides{
   @override
   HttpClient createHttpClient(SecurityContext? context){
@@ -12,7 +15,7 @@ import 'screens/maps/find_to_motel.dart';
 }
 
 void main() {
-  HttpOverrides.global = MyHttpOverrides();
+  // HttpOverrides.global = MyHttpOverrides();
   runApp(const Inicio());
 } 
 

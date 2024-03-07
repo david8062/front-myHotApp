@@ -11,7 +11,8 @@ class boton extends StatelessWidget {
   final double buttonHeight;
   final TextStyle textStyle;
 
-  const boton({super.key, 
+  const boton({
+     Key? key,
     required this.text,
     required this.onPressed,    
     this.buttonColor = Colors.blue, // Color de fondo predeterminado
@@ -23,7 +24,7 @@ class boton extends StatelessWidget {
       fontSize: 16.0, // Tamaño de texto predeterminado
       
     ),
-  });
+  }): super(key: key);
 
   @override
   Widget build(BuildContext context) {
