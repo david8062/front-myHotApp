@@ -1,8 +1,8 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
-import 'package:front_end/screens/positions/hetero_positions.dart';
-import 'package:front_end/widgets/boton.dart'; // Asegúrate de que la importación sea correcta
+import 'package:front_end/widgets/main_menu.dart';
+import 'package:front_end/widgets/boton.dart'; 
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
               text: "Iniciar",
               onPressed: () => {
                 Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const HeteroPositions())
+                MaterialPageRoute(builder: (context) => const MainMenu())
                  )
 
               },

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:front_end/screens/inicio.dart';
 // import 'screens/inicio.dart';
-import 'screens/maps/find_to_motel.dart';
- import 'dart:io';
+import 'screens/positions/galery.dart';
+
+
+import 'dart:io';
   class MyHttpOverrides extends HttpOverrides{
   @override
   HttpClient createHttpClient(SecurityContext? context){
@@ -12,7 +15,7 @@ import 'screens/maps/find_to_motel.dart';
 }
 
 void main() {
-  HttpOverrides.global = MyHttpOverrides();
+  // HttpOverrides.global = MyHttpOverrides();
   runApp(const Inicio());
 } 
 
@@ -25,7 +28,7 @@ class Inicio extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "My hot app",
-      home: FindToMotel(),
+      home: HomePage(),
      
       
     );
